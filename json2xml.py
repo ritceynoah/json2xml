@@ -13,4 +13,4 @@ def json2xml(json_obj, line_padding=""):
             result_list.append("%s</%s>" % (line_padding, tag_name))
         return " ".join(result_list)
     return "%s%s" % (line_padding, json_obj)
-return json2xml(payload)
+answer = json2xml(payload)
